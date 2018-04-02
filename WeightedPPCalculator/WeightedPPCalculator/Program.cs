@@ -7,7 +7,7 @@ namespace WeightedPPCalculator
     {
         static void Main(string[] args)
         {
-            double[] ppScores = new double[100];
+            double[] ppScores = new double[100]; //change the number to how many scores you want to enter
             List<double> ppList = new List<double>();
             double totalPP = 0;
             for (int i = 0; i < ppScores.Length; i++)
